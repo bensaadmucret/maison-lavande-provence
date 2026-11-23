@@ -427,6 +427,24 @@ function nocontext(e){if(typeof show_wpcp_message==="function")show_wpcp_message
 <main id="wp--skip-link--target" class="wp-block-group has-white-background-color has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-f5552b94 wp-block-group-is-layout-constrained" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div class="entry-content wp-block-post-content has-background has-custom-color-11-background-color is-layout-flow wp-block-post-content-is-layout-flow">
 <p class="has-text-align-center has-custom-color-1-color has-text-color has-link-color has-x-large-font-size wp-elements-4 wp-block-paragraph">« Chaque détail raconte une histoire&#8230;et si nous écrivions la vôtre ? »</p>
 <div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+<style>
+#contact-form{max-width:640px;margin:0 auto;text-align:left;font-family:inherit}
+#contact-form .forminator-row{margin-bottom:18px}
+#contact-form .forminator-label{display:block;font-size:.82em;letter-spacing:.08em;text-transform:uppercase;color:#7d7164;margin-bottom:6px}
+#contact-form .forminator-required{color:#b08d57}
+#contact-form .forminator-input,#contact-form .forminator-textarea{box-sizing:border-box;width:100%;padding:12px 14px;border:1px solid #ddd3c3;background:#fdfcfa;color:#4a443b;font-size:1em;font-family:inherit;border-radius:3px;transition:border-color .2s}
+#contact-form .forminator-input:focus,#contact-form .forminator-textarea:focus{outline:none;border-color:#b09f89}
+#contact-form .forminator-textarea{min-height:140px;resize:vertical}
+#contact-form .forminator-checkbox__wrapper{display:flex;align-items:flex-start;gap:12px}
+#contact-form .forminator-checkbox{display:flex;align-items:center;cursor:pointer;margin-top:2px}
+#contact-form .forminator-checkbox input{margin:0}
+#contact-form .forminator-checkbox__label{font-size:.9em;color:#6d6355}
+#contact-form .forminator-checkbox__label p{margin:0}
+#contact-form .forminator-button{cursor:pointer;border:none;padding:14px 42px;background:#8a7a63;color:#fff;font-size:.85em;letter-spacing:.18em;text-transform:uppercase;font-family:inherit;border-radius:3px;transition:background .2s}
+#contact-form .forminator-button:hover{background:#6f6150}
+#contact-form .forminator-response-message{padding:14px 18px;margin-bottom:20px;border-radius:3px;font-size:.95em}
+#contact-form .forminator-success{background:#eef4ea;border:1px solid #b8cfae;color:#4a6b3f}
+</style>
 <form id="contact-form" class="forminator-ui forminator-custom-form forminator-design--default" method="POST" action="https://formspree.io/f/mgakpkna">
   <div class="forminator-response-message forminator-success" id="contact-success" style="display:none" role="alert">Merci ! Votre message a bien &eacute;t&eacute; envoy&eacute;. Nous vous r&eacute;pondrons rapidement.</div>
   <div class="forminator-row"><div class="forminator-col forminator-col-12"><div class="forminator-field">
